@@ -37,6 +37,8 @@
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script defer src="js/popup.js"></script>
+
 </head>
 
 <style>
@@ -48,6 +50,7 @@
 </style>
 
 <body>
+
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-light bg-black fixed-top">
@@ -96,10 +99,34 @@
 
   <!-- About -->
   <section id="about">
+    <div class="hex"></div>
+    <div class="ag"></div>
     <div class="container">
+      
       <div class="section-header col-sm-12 text-center">
         <h3>Diversoulty Card Organization</h3>
         <p class="text-white pt-2">首款結合「拼圖」與「顯示卡」的NFT！共10000張顯卡獸等著利用組合優勢，向曾拋棄他們的資本主義宣戰</p>
+      </div>
+      <div class="container section-header">
+        <div class="row">
+          <div class="col-md-6" style="margin-bottom:0px;">
+            <img class="img-fluid w-100" src="img/photo2.jpg">
+          </div>
+          <div class="col-md-6" style="margin-top:60px;">
+            <div class="row justify-content-center">
+              <div class="position-relative">
+                <h6>我們是首款互動式、可更改圖樣的 NFT— 顯卡獸！</h6>
+                <p class="text-white pt-2" style="text-align:left;">一起進入顯卡獸的世界，享受遊戲與社群互動。
+                </p>
+                <p class="text-white pt-2" style="text-align:left;">任務同時獲得實體特色商家優惠！</p>
+              </div>
+              <section class="d-flex align-items-center justify-content-left" >
+                  <a href="#i1" class="btn-get-started scrollto">Mind Map</a>
+                </section>
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-sm-12 text-center">
         <div class="py-2">
@@ -111,10 +138,19 @@
         </div>
       </div>
 
-    </div>
+  </div>
+  <script>
+    const Root = document.querySelector("#about");
+    const BG = document.querySelector(".ag");
+  
+    Root.addEventListener("mousemove",function (e){
+        BG.style.left = `${e.clientX}px`;
+        BG.style.top = `${e.clientY}px`;
+    });
+  </script>
   </section>
 
-  <!-- Born Section -->
+  <!-- Born Section 
   <section id="born">
 
     <div class="container ">
@@ -130,16 +166,187 @@
           <div class="row justify-content-center">
             <div class="col-lg-12 position-relative">
               <p>2063年，由九大國際企業管理之量子AI—「元樹
-                MetreeX」的電纜已遍布80%的城市表面，這些企業同時也掌管市場75%的虛擬貨幣，為了提高產量，挖礦的運算需求早已從顯示卡轉移至效率高達2500%的人腦。企業淘汰的顯示卡被世界各處集中回收，然而某天元樹的區塊鏈DNA正巧傳入尚未報廢的顯示卡，於是顯卡獸便誕生了。
+                MetreeX」的電纜已遍布80%的城市表面，這些企業同時也掌管市場75%的虛擬貨幣，為了提高產量
+                ，挖礦的運算需求早已從顯示卡轉移至效率高達2500%的人腦。企業淘汰的顯示卡被世界各處集中回收
+                ，然而某天元樹的區塊鏈DNA正巧傳入尚未報廢的顯示卡，於是顯卡獸便誕生了。
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  
+ <!-- New NFT -->
+ <section id="newnft">
+  <div class="nex"></div>
+  <div class="ng"></div>
+  <script>
+    const noot = document.querySelector("#newnft");
+    const nG = document.querySelector(".ng");
+  
+    noot.addEventListener("mousemove",function (e){
+        nG.style.left = `${e.clientX}px`;
+        nG.style.top = `${e.clientY}px`;
+    });
+  </script>
 
-  <!-- New NFT -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-white text-center section-header">100%的最終目標：元宇宙中的優惠平台</h2>
+          <p class="text-white pt-2">透過與更多的國內外商家合作，共同打造屬於大家的行銷策略聯盟，本項目提供客製化的行銷工具與方法供有合作意願的商家及持有者使用，商家則以優惠回饋給本項目。</p>
+          <h3 class="text-center text-white pt-2">以下為本社群所有成員於項目計畫100%時所享有的權利</h3>
+        </div>
+
+        <div class="col-md-4 mx-auto"style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n_4-remove.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>持有NFT者</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">NFT拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為商家優惠或商家</li>
+                <li style="color: aliceblue; font-weight: bolder;">限定外觀之活動任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為NFT外觀之任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">一切NFT項目之相關活動</li>
+                <li style="color: aliceblue; font-weight: bolder;">NFT之商標使用權</li>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4" style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx ">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n__el.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>未持有者</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">空白拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為商家優惠或商家</li>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col-md-4" style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx ">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n__el.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>合作商家</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">客製NFT拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">有權發起任務與訂製獎勵，也可與其他商家協商合作</li>
+                <li style="color: aliceblue; font-weight: bolder;">若有任何</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為NFT外觀之任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">一切NFT項目之相關活動</li>
+                <li style="color: aliceblue; font-weight: bolder;">NFT之商標使用權</li>
+            </div>
+        </div>
+        </div>
+
+        
+
+<!--
+        <div class="col-md-4 mx-auto">
+          <div class="mx-auto bg-white pb-2" style="border-radius: 20px">
+            <h4 class="pt-4 text-center">持有NFT者</h4>
+            <img src="static/n_4.png" style="display:block; margin:auto;" class="text-center">
+            <h4 class="pt-2 text-center">NFT拼圖</h4>
+            <hr>
+            <k>
+            <ul>
+              <p style="color: black; font-weight: bold;">●平台帳戶基本優惠</p>
+              <li>可參加獎勵為商家優惠或商家</li>
+              <li>限定外觀之活動任務</li>
+              <li>可參加獎勵為NFT外觀之任務</li>
+              <li>一切NFT項目之相關活動</li>
+              <li>NFT之商標使用權</li>
+            </ul>
+          </k>
+          </div>
+        </div>-->
+<!--
+        <div class="col-md-4 mx-auto">
+          <div class="mx-auto bg-white pb-2" style="border-radius: 20px">
+            <h4 class="pt-4 text-center">未持有者</h4>
+            <img src="static/n__el.png" style="display:block; margin:auto;" class="text-center">
+            <h4 class="pt-2 text-center">空白拼圖</h4>
+            <hr>
+            <k>
+            <ul>
+              <li>平台帳戶基本優惠</li>
+              <li>可參加獎勵為商家優惠或商家</li>
+            </ul>
+          </k>
+          </div>
+        </div>
+
+        <div class="col-md-4 mx-auto">
+          <div class="mx-auto bg-white pb-2" style="border-radius: 20px">
+            <h4 class="pt-4 text-center">合作商家</h4>
+            <img src="static/n__el.png" style="display:block; margin:auto;" class="text-center">
+            <h4 class="pt-2 text-center">客製NFT拼圖</h4>
+            <hr>
+            <k>
+            <ul>
+              <li>平台帳戶基本優惠</li>
+              <li>有權發起任務與訂製獎勵，也可與其他商家協商合作</li>
+              <li>若有任何</li>
+              <li>可參加獎勵為NFT外觀之任務</li>
+              <li>一切NFT項目之相關活動</li>
+              <li>NFT之商標使用權</li>
+            </ul>
+          </k>
+          </div>
+        </div>-->
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="section-header">
+      <h2>顯卡獸的誕生</h2>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="margin-top:0px;">
+        <img class="img-fluid w-100" src="static/n__ex@2x.png">
+      </div>
+      <div class="col-md-6" style="margin-top:0px;">
+        <div class="row justify-content-center">
+          <div class="position-relative">
+            
+            <p>2063年，由九大國際企業管理之量子AI—「元樹
+              MetreeX」的電纜已遍布80%的城市表面，這些企業同時也掌管市場75%的虛擬貨幣，為了提高產量
+              ，挖礦的運算需求早已從顯示卡轉移至效率高達2500%的人腦。企業淘汰的顯示卡被世界各處集中回收
+              ，然而某天元樹的區塊鏈DNA正巧傳入尚未報廢的顯示卡，於是顯卡獸便誕生了。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+  <!-- New NFT 
   <section id="newnft">
     <div class="container">
       <div class="section-header">
@@ -176,19 +383,165 @@
       </div>
     </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- Task -->
-  <section id="task">
+  <section id="task" >
+    <div class="tex"></div>
+  <div class="tg"></div>
     <div class="container">
       <div class="section-header">
-        <h2>互動模式：遊戲任務與優惠</h2>
+        <h2 id="i1" style="font-size: 36px;">MIND MAP</h2>
       </div>
       <div class="row">
         <!--<div class="col-lg-12">
           <img class="img-fluid w-100" src="static/S__16613379.png">
         </div>-->
+        <div class="col-lg-4">
+        <div class="row justify-content-center">
+        <div id="kk" class="container">
+          <div class="box">
+              <h2 class="name" style="font-size: 30px;">理念與願景</h2>
+              <a href="#1" class="buy" data-popup-target="#aa">介紹</a>
+              <div class="circle"></div>
+              <img src="img/eye1.png" class="product">
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="row justify-content-center">
+       <div id="kk" class="container">
+        <div class="box" style="height: 200px;  margin: 1px;">
+            <h2 class="name" style="font-size: 20px;">拼圖概念</h2>
+            <a href="#1" class="buy" data-popup-target="#bb">介紹</a>
+            <div class="circle" style="height: 150px; width: 150px;"></div>
+            <img src="img/eye2.png" class="product" style="max-width: 100px;">
+        </div> 
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div id="kk" class="container">
+       <div class="box" style="height: 200px; margin: 1px;">
+           <h2 class="name" style="font-size: 20px;">遊戲任務</h2>
+           <a href="#1" class="buy" data-popup-target="#cc">介紹</a>
+           <div class="circle" style="height: 150px; width: 150px;"></div>
+           <img src="img/eye4.png" class="product" style="max-width: 100px;">
+       </div> 
+     </div>
+   </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="row justify-content-center">
+      <div id="kk" class="container">
+        <div class="box">
+            <h2 class="name" style="font-size: 30px;">合作商家與社群計畫</h2>
+            <a href="#1" class="buy" data-popup-target="#dd">介紹</a>
+            <div class="circle"></div>
+            <img src="img/eye3.png" class="product">
+        </div> 
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- popup content -->
+  <div class="popup" id="aa">
+    <div class="popup-header">
+      <div class="title">理念與願景</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="popup-body">
+      <div class="h1">●打造人人可用的服務:</div> 
+        <p style="color: aliceblue; font-weight: bolder;">
+        顯卡獸希望能夠將 NFT 推廣到一般消費者，從購買、持有權益到應用上都能簡單上手；而合作商家也能快速銜接相關服務
+        ，無痛進入元宇宙，使用新技術輕鬆獲得更多實質效益。</p> 
+        <div class="h1">
+          ●建立穩定的應用模式:</div> 
+          <p style="color: aliceblue;font-weight: bolder;">
+        現行許多 NFT 專案買賣雙方都已投資獲利為主要目的，許多 NFT 專案都雷聲大雨點小，我們希望能透過長期運營 NFT 專案來打破目前 NFT 市場的亂象。</p> 
+        <div class="h1">
+          ●打破每個 NFT 間的框架:</div>
+          <p style="color: aliceblue;font-weight: bolder;">
+        許多人認為 NFT 僅僅是一張不可變動的圖示而不理解其價值，我們透過獨家的拼圖式設計讓 NFT 圖示在購買後可以升級，也可以跟其他人互動，創造更多的價值點。
+    </p> 
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  <div class="popup" id="bb">
+    <div class="popup-header">
+      <div class="title">拼圖概念</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="popup-body">
+      <div class="h1">●礦渣與流浪動物的結合:</div> 
+        <p style="color: aliceblue;font-weight: bolder;">
+          第一代顯卡獸是被 DSCO 宇宙裡的九大企業所淘汰掉的顯示卡，由於各企業有不同代表色，顯卡獸們也有相對應的顏色
+          ，初始顯卡獸可以藉由完成任務來變換自己的裝備，並進化成駭客、蠱師等六種職業，解鎖完整外觀！</p> 
+          <div class="h1">
+          ●全球首創拼圖式設計:</div> 
+          <p style="color: aliceblue;font-weight: bolder;">
+            顯卡獸巧妙地運用線條，設計出既是頭部也可以像尾巴的拼圖形狀，使所有顯卡獸可以互相結合形成大型拼圖
+            ，藉由與別人相拼的動作來象徵整個社群，「與陌生人拼拼圖」不僅促進收藏家間的交流，也回饋至整個社群促進凝聚力。</p> 
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  <div class="popup" id="cc">
+    <div class="popup-header">
+      <div class="title">遊戲任務</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="popup-body">
+      <p style="color: aliceblue;font-weight: bolder;">
+        在平台上我們會不定時的更新任務表單，透過參與任務就可以獲得更多優惠
+        ，使用優惠次數超過一定次數更有機會直接獲得現金回饋！</p>
+        <div class="h1">
+          ●活動任務:</div>  
+      <p style="color: aliceblue;font-weight: bolder;">
+        透過參加我們舉辦的實體活動或是至活動指定店家打卡消費，
+        未來也預計結合更多 AR 技術，豐富持有者的遊戲體驗
+        ，完成後即可獲得參與活動的其他商家的限時升級折扣或招待物。
+</p> 
+        <div class="h1">
+        ●社群任務:</div> 
+        <p style="color: aliceblue;font-weight: bolder;">
+          前往我們指定的合作商家社群互動，即可獲得大禮包的抽獎資格
+          ，禮包內除了合作店家的強力優惠，還會有許多高價值商品。</p> 
+          <div class="h1">
+            ●拼圖任務:</div> 
+            <p style="color: aliceblue;font-weight: bolder;">
+              不定時懸賞，透過累積消費次數任務可以升級 NFT 的圖示
+              ，獲得更高等級的商家優惠。</p> 
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  <div class="popup" id="dd">
+    <div class="popup-header">
+      <div class="title">合作商家與社群計畫</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="popup-body">
+      <p style="color: aliceblue;font-weight: bolder;">
+        目前我們已簽約 10+ 的商家，包括咖啡廳、甜點店、酒吧...等，遍及
+        台中、台南、高雄，目前約有 50 up 的商家積極洽談中！！
+        店家名單也會陸續於社群更新！</p>
+      <p style="color: aliceblue;font-weight: bolder;">
+        未來也會持續與美食、旅遊、生活網紅合作
+        ，開發更多任務內容，帶給持有者更豐富的指南與消費體驗!
+</p> 
+    </div>
+  </div>
+  <div id="overlay"></div>
+<!-- task end -->
+
+
+
+
+<!--
         <div class="col-lg-4 task-info" style="padding-right: 1pt;padding-left: 1pt;border: 5px solid black;">
           <div class="row justify-content-center">
             <div class="col-lg-10 position-relative">
@@ -212,7 +565,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!--另一列
         <div class="col-lg-12 task-info bg-white " style="margin-top:15px;">
@@ -234,6 +587,8 @@
 
   <!-- About -->
   <section id="about">
+    <div class="hex"></div>
+    <div class="aa"></div>
     <div class="container">
       <div class="section-header col-sm-12 text-center">
         <h3>Road Map</h3>
@@ -282,16 +637,83 @@
   -->
 
   <!-- 100%最終目標 -->
-
+<!--
   <section id="newnft" class="bg-dark pt-4">
+    <div class="nex"></div>
+    <div class="ng"></div>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h3 class="text-white">100%的最終目標：元宇宙中的優惠平台</h3>
+          <h2 class="text-white text-center section-header">100%的最終目標：元宇宙中的優惠平台</h2>
           <p class="text-white pt-2">透過與更多的國內外商家合作，共同打造屬於大家的行銷策略聯盟，本項目提供客製化的行銷工具與方法供有合作意願的商家及持有者使用，商家則以優惠回饋給本項目。</p>
-          <p class="text-white pt-2">以下為本社群所有成員於項目計畫100%時所享有的權利：</p>
+          <h3 class="text-center text-white pt-2">以下為本社群所有成員於項目計畫100%時所享有的權利</h3>
         </div>
 
+        <div class="col-md-4 mx-auto"style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n_4-remove.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>持有NFT者</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">NFT拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為商家優惠或商家</li>
+                <li style="color: aliceblue; font-weight: bolder;">限定外觀之活動任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為NFT外觀之任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">一切NFT項目之相關活動</li>
+                <li style="color: aliceblue; font-weight: bolder;">NFT之商標使用權</li>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4" style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx ">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n__el.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>未持有者</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">空白拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為商家優惠或商家</li>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col-md-4" style="height: 400px;">
+          <div class="fox mx-auto">
+            <div class="imgBx ">
+              <div class="col-md-4" style="float: left;">
+                <img src="static/n__el.png">
+              </div>
+              <div class="col-md-7" style="float: right; position:absolute;bottom: 20%; left: 50%; ">
+                <h4>合作商家</h4>
+              </div>
+            </div>
+            <div class="contentBx">
+                <h2 style="font-size: 25px;">客製NFT拼圖</h2>
+                <li style="color: aliceblue; font-weight: bolder;">平台帳戶基本優惠</li>
+                <li style="color: aliceblue; font-weight: bolder;">有權發起任務與訂製獎勵，也可與其他商家協商合作</li>
+                <li style="color: aliceblue; font-weight: bolder;">若有任何</li>
+                <li style="color: aliceblue; font-weight: bolder;">可參加獎勵為NFT外觀之任務</li>
+                <li style="color: aliceblue; font-weight: bolder;">一切NFT項目之相關活動</li>
+                <li style="color: aliceblue; font-weight: bolder;">NFT之商標使用權</li>
+            </div>
+        </div>
+        </div>
+-->
+        
+
+<!--
         <div class="col-md-4 mx-auto">
           <div class="mx-auto bg-white pb-2" style="border-radius: 20px">
             <h4 class="pt-4 text-center">持有NFT者</h4>
@@ -300,7 +722,7 @@
             <hr>
             <k>
             <ul>
-              <li>平台帳戶基本優惠</li>
+              <p style="color: black; font-weight: bold;">●平台帳戶基本優惠</p>
               <li>可參加獎勵為商家優惠或商家</li>
               <li>限定外觀之活動任務</li>
               <li>可參加獎勵為NFT外觀之任務</li>
@@ -309,8 +731,8 @@
             </ul>
           </k>
           </div>
-        </div>
-
+        </div>-->
+<!--
         <div class="col-md-4 mx-auto">
           <div class="mx-auto bg-white pb-2" style="border-radius: 20px">
             <h4 class="pt-4 text-center">未持有者</h4>
@@ -343,27 +765,30 @@
             </ul>
           </k>
           </div>
-        </div>
-      </div>
+        </div>-->
+     <!-- </div>
     </div>
-  </section>
-  <!--<section class="bg-dark pt-4">
-
   </section>-->
 
+
 <!-- Team Start -->
-<section id="store" >
-<div class="container-xxl py-5">
+<section id="store" style="padding-top:10px;" >
+  <div class="hex"></div>
+    <div class="ag"></div>
+<div class="container-xxl" style="padding-top:0; padding-bottom: 3rem;">
   <div class="container">
-      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-          <p class="myfont2 d-inline-block bg-secondary text-primary py-1 px-4">首波合作店家</p>
+      <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
+          <!--<p class="myfont2 d-inline-block bg-secondary text-primary py-1 px-4">首波合作店家</p>-->
+          <h7 class="text-white text-center section-header">首波合作店家</h7>
          <!-- <h1 class="text-uppercase">Meet Our Cooperation Partner</h1> -->
-          <h1 class="text-uppercase" style="color: rgb(17, 0, 255);text-shadow: rgb(255, 0, 212) 0 6px;">Comming Soon</h1>
+         <br>
+         <br>
+          <h1 class="text-uppercase" style="color: rgb(255, 255, 255);text-shadow: rgb(17, 0, 255) 0 6px;">Comming Soon</h1>
       </div>
       <div class="row g-4">
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
               <div class="team-item">
-                  <div class="team-img position-relative overflow-hidden">
+                  <div class="team-img position-relative overflow-hidden" style="border-radius:20px 20px 0px 0px;">
                       <img class="img-fluid" src="img/store2.jpg" alt="">
                       <div class="team-social">
                           <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -371,15 +796,15 @@
                           <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
-                  <div class="bg-secondary text-center p-4">
+                  <div class="bg-secondary text-center p-4" style="border-radius:0px 0px 20px 20px;">
                       <h5 class="text-uppercase">Name</h5>
-                      <span class="text-primary">Restaurant</span>
+                      <span class="text-primary" style="text-shadow: rgb(255, 255, 255) 0 6px;">Restaurant</span>
                   </div>
               </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
               <div class="team-item">
-                  <div class="team-img position-relative overflow-hidden">
+                  <div class="team-img position-relative overflow-hidden" style="border-radius:20px 20px 0px 0px;">
                       <img class="img-fluid" src="img/store3.jpg" alt="">
                       <div class="team-social">
                           <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -387,15 +812,15 @@
                           <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
-                  <div class="bg-secondary text-center p-4">
+                  <div class="bg-secondary text-center p-4" style="border-radius:0px 0px 20px 20px;">
                       <h5 class="text-uppercase">Name</h5>
-                      <span class="text-primary">Bar</span>
+                      <span class="text-primary" style="text-shadow: rgb(255, 255, 255) 0 6px;">Bar</span>
                   </div>
               </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
               <div class="team-item">
-                  <div class="team-img position-relative overflow-hidden">
+                  <div class="team-img position-relative overflow-hidden" style="border-radius:20px 20px 0px 0px;">
                       <img class="img-fluid" src="img/store3.jpg" alt="">
                       <div class="team-social">
                           <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -403,15 +828,15 @@
                           <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
-                  <div class="bg-secondary text-center p-4">
+                  <div class="bg-secondary text-center p-4" style="border-radius:0px 0px 20px 20px;">
                       <h5 class="text-uppercase">Name</h5>
-                      <span class="text-primary">Bar</span>
+                      <span class="text-primary" style="text-shadow: rgb(255, 255, 255) 0 6px;">Bar</span>
                   </div>
               </div>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
               <div class="team-item">
-                  <div class="team-img position-relative overflow-hidden">
+                  <div class="team-img position-relative overflow-hidden" style="border-radius:20px 20px 0px 0px;">
                       <img class="img-fluid" src="img/store2.jpg" alt="">
                       <div class="team-social">
                           <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -419,9 +844,9 @@
                           <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
-                  <div class="bg-secondary text-center p-4">
+                  <div class="bg-secondary text-center p-4" style="border-radius:0px 0px 20px 20px;">
                       <h5 class="text-uppercase">Name</h5>
-                      <span class="text-primary">Reataurant</span>
+                      <span class="text-primary" style="text-shadow: rgb(255, 255, 255) 0 6px;">Reataurant</span>
                   </div>
               </div>
           </div>
@@ -518,20 +943,22 @@
 
   <!-- Team -->
   <section id="team">
+    <div class="hex"></div>
+    <div class="ag"></div>
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-6">
-          <h2>Meet Our Team</h2>
+          <h2 class="section-header">Meet Our Team</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="text-center">
-            <h3>Management<br>Team</h3>
+            <h2 style="font-size: 20px;">Management<br>Team</h2>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/Rectangle_bh.png" class="img-fluid" alt="">
@@ -542,7 +969,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/Rectangle_e.png" class="img-fluid" alt="">
@@ -553,7 +980,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/Rectangle_fm.png" class="img-fluid" alt="">
@@ -567,10 +994,10 @@
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="text-center">
-            <h3>Marketing<br>Team</h3>
+            <h2 style="font-size: 20px;">Marketing<br>Team</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/Rectangle_fn.png" class="img-fluid" alt="">
@@ -580,7 +1007,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/Rectangle_fo.png" class="img-fluid" alt="">
@@ -592,12 +1019,12 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" >
           <div class="text-center">
-            <h3>Development<br>Team</h3>
+            <h2 style="font-size: 20px;">Development<br>Team</h2>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/n__fp.png" class="img-fluid" alt="">
@@ -607,7 +1034,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" style="width: 188px; height: 188px;">
           <div class="member">
             <div class="member-img">
               <img src="static/n__fd.png" class="img-fluid" alt="">
@@ -663,6 +1090,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+
+    
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+      max: 25,
+      speed: 400
+    });
+  </script>
+
+
 </body>
 
 </html>
