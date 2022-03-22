@@ -586,6 +586,7 @@
 
 
   <!-- About -->
+  <!--
   <section id="about">
     <div class="hex"></div>
     <div class="aa"></div>
@@ -614,7 +615,108 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+<!--road map-->
+  <section id="road">
+    <div class="hex"></div>
+    <div class="ag"></div>
+    <div class="section-header col-sm-12 text-center">
+      <h3>Road Map</h3>
+      <p class="text-white pt-2" style="font-weight: bolder;">首款結合「拼圖」與「顯示卡」的NFT！共10000張顯卡獸等著利用組合優勢，向曾拋棄他們的資本主義宣戰</p>
+    </div>
+    <br> 
+    <div class="process-wrapper">
+    <div id="progress-bar-container">
+      <ul>
+        <li class="step step01 active"><div class="step-inner">25%</div></li>
+        <li class="step step02"><div class="step-inner">30%</div></li>
+        <li class="step step03"><div class="step-inner">50%</div></li>
+        <li class="step step04"><div class="step-inner">75%</div></li>
+        <li class="step step05"><div class="step-inner">100%</div></li>
+      </ul>
+      
+      <div id="line">
+        <div id="line-progress"></div>
+      </div>
+    </div>
+
+    <div class="section-header">
+    <div id="progress-content-section">
+      <div class="section-content discovery active">
+        <h4 class="text-center">抽5位持有者，特製專屬金屬卡片寄送給持有者。</h4>
+      </div>
+      
+      <div class="section-content strategy">
+        <h4 class="text-center">任務系統全面上線，敬請關注各大社群以及本網站。</h4>
+      </div>
+      
+      <div class="section-content creative">
+        <h4 class="text-center">投放50份NT$1,000元全網消費抵用券給持有者。</h4>
+      </div>
+      
+      <div class="section-content production">
+        <h4 class="text-center">發售限量衣服；推出超大型任務(48*48格拼圖）</h4>
+      </div>
+      
+      <div class="section-content analysis">
+        <h4 class="text-center">抽出一位投放1ETH。</h4>
+          <h4 class="text-center">廣招區塊鍊工程團隊，將整個項目移植至區塊鏈上，形成完全去中心組織</h4>
+      </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-12 text-center">
+      <div class="py-2">
+        <a href="https://instagram.com/dsco_nft/"><i class="fab fa-instagram fa-2x text-white mx-3"></i></a>
+        <a href="https://www.facebook.com/Dsco%E9%A1%AF%E5%8D%A1%E7%8D%B8-102082269052780/"><i
+            class="fab fa-facebook fa-2x text-white mx-3"></i></a>
+        <a href="https://twitter.com/diversoultyco"><i class="fab fa-twitter fa-2x mx-3 text-white"></i></a>
+        <a href="https://discord.gg/vCRjNWedAy"><i class="fab fa-discord fa-2x text-white mx-3"></i></a>
+      </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+     <script>
+        
+        $(".step").click( function() {
+      $(this).addClass("active").prevAll().addClass("active");
+      $(this).nextAll().removeClass("active");
+    });
+    
+    $(".step01").click( function() {
+      $("#line-progress").css("width", "3%");
+      $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step02").click( function() {
+      $("#line-progress").css("width", "25%");
+      $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step03").click( function() {
+      $("#line-progress").css("width", "50%");
+      $(".creative").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step04").click( function() {
+      $("#line-progress").css("width", "75%");
+      $(".production").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step05").click( function() {
+      $("#line-progress").css("width", "100%");
+      $(".analysis").addClass("active").siblings().removeClass("active");
+    });
+    
+     
+        </script>
+
   </section>
+
+
 
 
   <!-- ROAD MAP 
